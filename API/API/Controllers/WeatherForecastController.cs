@@ -16,90 +16,72 @@ namespace API.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetRecipes")]
-        public IEnumerable<Recipe> Get()
+        public static List<Recipe> recipes = new()
         {
-            return Recipes;
-        }
+            new Recipe {Id = 1, DishName = "Борщ", Ingredients = new[] { "весь холодос" }, CookingTime = 1488, Instructions = "хз, чел"},
+            new Recipe {Id = 3, DishName = "Бутеры", Ingredients = new[] { "кусок хлеба", "гнилая колбоса" }, CookingTime = 1, Instructions = "накидай на хлеб все ингридиенты"},
+        };
 
         [HttpPost("add")]
-        public IActionResult AddRecipe([FromBody] Recipe recipe)
+        public IActionResult AddRecipe(Recipe data)
         {
-            if (Recipes.Any(r => r.Id == recipe.Id))
+            for (int i = 0; i < recipes.Count; i++)
             {
-                return BadRequest($"Рецепт с ID {recipe.Id} уже существует.");
+                if (recipes[i].Id == data.Id)
+                {
+                    return BadRequest("Запись с таким id уже существует");
+                }
             }
 
-            var validationResult = ValidateRecipe(recipe);
-            if (!validationResult.IsValid)
-            {
-                return BadRequest(validationResult.ErrorMessage);
-            }
-
-            recipe.Id = Recipes.Count > 0 ? Recipes.Max(r => r.Id) + 1 : 1;
-            Recipes.Add(recipe);
-            return Ok(recipe);
+            recipes.Add(data);
+            return Ok();
         }
 
-        [HttpPut("update/{id}")]
-        public IActionResult UpdateRecipe(int id, [FromBody] Recipe updatedRecipe)
+        [HttpPut]
+        public IActionResult UpdateRecipe(Recipe data)
         {
-            var recipe = Recipes.FirstOrDefault(r => r.Id == id);
-            if (recipe == null)
+            for (int i = 0; i < recipes.Count; i++)
             {
-                return NotFound("Рецепт не найден.");
+                if (recipes[i].Id == data.Id)
+                {
+                    recipes[i] = data;
+                    return Ok();
+                }
             }
-
-            var validationResult = ValidateRecipe(updatedRecipe);
-            if (!validationResult.IsValid)
-            {
-                return BadRequest(validationResult.ErrorMessage);
-            }
-
-            recipe.DishName = updatedRecipe.DishName;
-            recipe.Ingredients = updatedRecipe.Ingredients;
-            recipe.CookingTime = updatedRecipe.CookingTime;
-            recipe.Instructions = updatedRecipe.Instructions;
-
-            return Ok(recipe);
+            return BadRequest("Такая запись не обнаружена");
         }
 
-        [HttpDelete("delete/{id}")]
+        [HttpDelete("{id}")]
         public IActionResult DeleteRecipe(int id)
         {
-            var recipe = Recipes.FirstOrDefault(r => r.Id == id);
-            if (recipe == null)
+            for (int i = 0; i < recipes.Count; i++)
             {
-                return NotFound("Рецепт не найден.");
+                if (recipes[i].Id == id)
+                {
+                    recipes.RemoveAt(i);
+                    return Ok();
+                }
             }
-
-            Recipes.Remove(recipe);
-            return Ok($"Рецепт с ID {id} удален.");
+            return BadRequest("Такая запись не обнаружена");
         }
 
-        private (bool IsValid, string ErrorMessage) ValidateRecipe(Recipe recipe)
+        [HttpGet]
+        public List<Recipe> GetAll()
         {
-            if (string.IsNullOrWhiteSpace(recipe.DishName))
-            {
-                return (false, "Название блюда не должно быть пустым.");
-            }
+            return recipes;
+        }
 
-            if (recipe.Ingredients == null || recipe.Ingredients.Length == 0 || recipe.Ingredients.Any(i => string.IsNullOrWhiteSpace(i)))
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            for (int i = 0; i < recipes.Count; i++)
             {
-                return (false, "Ингредиенты должны быть указаны и не должны содержать пустых значений.");
+                if (recipes[i].Id == id)
+                {
+                    return Ok(recipes[i]);
+                }
             }
-
-            if (recipe.CookingTime <= 0)
-            {
-                return (false, "Время приготовления должно быть больше 0.");
-            }
-
-            if (string.IsNullOrWhiteSpace(recipe.Instructions))
-            {
-                return (false, "Инструкции должны быть указаны.");
-            }
-
-            return (true, string.Empty);
+            return BadRequest("Такая запись не обнаружена");
         }
     }
 
@@ -108,7 +90,7 @@ namespace API.Controllers
         public int Id { get; set; }
         public string DishName { get; set; }
         public string[] Ingredients { get; set; }
-        public int CookingTime { get; set; } 
+        public int CookingTime { get; set; }
         public string Instructions { get; set; }
     }
 }

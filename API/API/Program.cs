@@ -1,3 +1,5 @@
+using API.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace API
 {
@@ -6,6 +8,9 @@ namespace API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<TraderRecipeContext>(
+                options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
 
             // Add services to the container.
 
