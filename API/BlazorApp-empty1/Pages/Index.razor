@@ -1,0 +1,82 @@
+﻿@page "/"
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Обмен рецептами</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#catalog">Рецепты</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Поделитесь своими кулинарными шедеврами!</h2>
+                <p>Ознакомьтесь с нашими рецептами и добавьте свои лучшие блюда!</p>
+                <button onclick="location.href='#catalog'">Посмотреть рецепты</button>
+            </div>
+        </section>
+
+        <section id="catalog" class="catalog">
+            <h2>Наши рецепты</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h3>Борщ</h3>
+                    <p>Ингредиенты: капуста, картошка, свекла...</p>
+                    <p>Время приготовления: 1 час</p>
+                    <button>Подробнее</button>
+                </div>
+                <div class="card">
+                    <h3>Блины</h3>
+                    <p>Ингредиенты: мука, молоко, яйца...</p>
+                    <p>Время приготовления: 30 минут</p>
+                    <button>Подробнее</button>
+                </div>
+                <div class="card">
+                    <h3>Паста Карбонара</h3>
+                    <p>Ингредиенты: паста, бекон, яйца...</p>
+                    <p>Время приготовления: 20 минут</p>
+                    <button>Подробнее</button>
+                </div>
+                <div class="card">
+                    <h3>Салат Цезарь</h3>
+                    <p>Ингредиенты: курица, салат, сыр...</p>
+                    <p>Время приготовления: 25 минут</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>О нас</h2>
+            <p>Мы создали платформу для обмена кулинарными рецептами. Поделитесь своими лучшими блюдами и получите новые идеи для кухни!</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Связаться с нами</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Обмен рецептами. Все права защищены.</p>
+    </footer>
+</body>

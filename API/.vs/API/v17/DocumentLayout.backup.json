@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E484DFFA-3D5C-4561-B870-BAAD85F05654}|BlazorApp-empty1\\BlazorApp-empty1.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\blazorapp-empty1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E484DFFA-3D5C-4561-B870-BAAD85F05654}|BlazorApp-empty1\\BlazorApp-empty1.csproj|solutionrelative:blazorapp-empty1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E484DFFA-3D5C-4561-B870-BAAD85F05654}|BlazorApp-empty1\\BlazorApp-empty1.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\blazorapp-empty1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E484DFFA-3D5C-4561-B870-BAAD85F05654}|BlazorApp-empty1\\BlazorApp-empty1.csproj|solutionrelative:blazorapp-empty1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\migrations\\traderrecipecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\migrations\\traderrecipecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\models\\traderrecipecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\models\\traderrecipecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +47,16 @@
       "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\migrations\\20241224085911_migratonname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|solutionrelative:api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC8CA93-0211-4F59-873C-8F1BC7055936}|API\\API.csproj|c:\\users\\user\\desktop\\ekzam\\newproject\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,24 +70,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20241224085911_MigratonName.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Migrations\\20241224085911_MigratonName.cs",
-              "RelativeDocumentMoniker": "API\\Migrations\\20241224085911_MigratonName.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Migrations\\20241224085911_MigratonName.cs",
-              "RelativeToolTip": "API\\Migrations\\20241224085911_MigratonName.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:45:52.81Z",
+              "DocumentIndex": 0,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\BlazorApp-empty1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "BlazorApp-empty1\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\BlazorApp-empty1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "BlazorApp-empty1\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-24T11:52:01.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\BlazorApp-empty1\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorApp-empty1\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\BlazorApp-empty1\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorApp-empty1\\Pages\\Index.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwFEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T11:51:52.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -92,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\User.cs",
               "RelativeDocumentMoniker": "API\\Models\\User.cs",
@@ -105,33 +126,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwCcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T10:42:09.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\appsettings.json*",
-              "RelativeToolTip": "API\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-24T10:08:28.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TraderRecipeContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Migrations\\TraderRecipeContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "API\\Migrations\\TraderRecipeContextModelSnapshot.cs",
@@ -144,20 +165,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IngredientController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Controllers\\IngredientController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\IngredientController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Controllers\\IngredientController.cs",
               "RelativeToolTip": "API\\Controllers\\IngredientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T09:44:50.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\Recipe.cs",
+              "RelativeToolTip": "API\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:13:30.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TraderRecipeContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\TraderRecipeContext.cs",
               "RelativeDocumentMoniker": "API\\Models\\TraderRecipeContext.cs",
@@ -170,7 +204,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "20241224085911_MigratonName.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Migrations\\20241224085911_MigratonName.cs",
+              "RelativeDocumentMoniker": "API\\Migrations\\20241224085911_MigratonName.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Migrations\\20241224085911_MigratonName.cs",
+              "RelativeToolTip": "API\\Migrations\\20241224085911_MigratonName.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:45:52.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Ingredient.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\Ingredient.cs",
               "RelativeDocumentMoniker": "API\\Models\\Ingredient.cs",
@@ -178,12 +225,11 @@
               "RelativeToolTip": "API\\Models\\Ingredient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:05:25.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:05:25.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\HomeController.cs",
@@ -191,12 +237,11 @@
               "RelativeToolTip": "API\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:50:19.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T10:50:19.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ValuesController.cs",
@@ -204,34 +249,19 @@
               "RelativeToolTip": "API\\Controllers\\ValuesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:50:40.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T10:50:40.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "API",
+              "DocumentIndex": 14,
+              "Title": "API.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
               "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\API.csproj",
               "RelativeToolTip": "API\\API.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-24T09:07:25.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\Recipe.cs",
-              "RelativeDocumentMoniker": "API\\Models\\Recipe.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Ekzam\\newProject\\API\\API\\Models\\Recipe.cs",
-              "RelativeToolTip": "API\\Models\\Recipe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:13:30.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:07:25.434Z"
             }
           ]
         }

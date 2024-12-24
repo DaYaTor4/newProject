@@ -1,0 +1,8 @@
+wwwroot\css\app.css
+wwwroot\Img\184A4682.jpg
+wwwroot\Img\Крос.png
+wwwroot\Img\рюк.jpg
+wwwroot\Img\Футболка.jpg
+wwwroot\Img\шоррибок.jpg
+wwwroot\Img\штаны.jpg
+wwwroot\index.html
